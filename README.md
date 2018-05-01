@@ -24,6 +24,8 @@ Run by:
 A Java graphics window should appear to display current state of
 simulation.  Monitoring output including profiling information will be printed at the terminal.
 
+The simulation will continue running until the graphics window is closed or the program is killed at the terminal.
+
 ## Disclaimer
 
 Although the logic in this code is believed to be a correct implementation of Barnes-Hut, parameters including the time step and opening angle have not been tuned to guarantee accuracy of the simulation.
