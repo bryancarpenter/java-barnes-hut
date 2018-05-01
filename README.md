@@ -7,11 +7,11 @@ A simple Java code illustrating use of Barnes Hut algorithm for N-body simulatio
 
 ### Prequisites
 
-Java JDK and Maven 3 for the build.
+Java 8 JDK and Maven 3 for the build.
 
 ### Installing and running
 
-Download distribution from GIT.
+Download distribution from GitHub.
 
 In the project folder, build by:
 ```
