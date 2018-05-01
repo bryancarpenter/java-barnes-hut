@@ -259,6 +259,7 @@ public class BarnesHut {
         }
 
         void addParticle(float x, float y, float z) {
+            /* In single precision following test sometimes fails through rounding errors
             float sizeBy2 = size / 2 ;
             if(x < xMid - sizeBy2 || x > xMid + sizeBy2 ||
                y < yMid - sizeBy2 || y > yMid + sizeBy2 ||
@@ -267,6 +268,7 @@ public class BarnesHut {
                 throw new IllegalArgumentException("particle position outside " +
                                                    "bounding box of Node") ;
             }
+            */
             if(nParticles == 0) {
                 xCent = x ;
                 yCent = y ;
