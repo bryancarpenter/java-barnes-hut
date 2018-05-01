@@ -1,7 +1,7 @@
 
 # Java Barnes Hut code
 
-A simple Java code illustrating use of Barnes Hut algorithm for N-body simulation of a group of bodies - "stars" - interacting through the force of gravity.
+A simple Java code illustrating use of Barnes Hut algorithm for N-body simulation of a group of unit mass bodies - "stars" - interacting through the force of gravity.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ Download distribution from GIT.
 
 In the project folder, build by:
 ```
-  $ mvn
+  $ mvn package
 ```
 Run by:
 ```
@@ -26,5 +26,5 @@ simulation.  Monitoring output including profiling information will be printed a
 
 ## Disclaimer
 
-Although the logic of this code is believed to be a correct implementatio of Barnes-Hut, parameters such as the time step have not been tuned to guarantee accuracy of the simulation.
+Although the logic in this code is believed to be a correct implementation of Barnes-Hut, parameters including the time step and opening angle have not been tuned to guarantee accuracy of the simulation.
 
